@@ -1,0 +1,13 @@
+{
+  "name": "emartin",
+  "version": "1.0.0",
+  "description": "Etienne Martin's contact info",
+  "main": "index.js",
+  "bin": {
+    "emartin": "./bin/emartin"
+  },
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "node index.js"
+  }
+}
